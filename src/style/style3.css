@@ -49,16 +49,16 @@
 }
 
 p b{
-    font-size: 22px;
-    text-align: center;
+    font-size: 25px;
+
    
 }
 p{
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
-    text-align: left;
+    text-align: center;
     color: #44485D;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .botoes{
