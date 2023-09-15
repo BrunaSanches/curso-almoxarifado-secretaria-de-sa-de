@@ -12,6 +12,9 @@
     justify-content: center;
     align-items: center;
     position: absolute;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
 }
 .home img{
     width: 100%;
@@ -35,6 +38,9 @@
     align-items: center;
     position: absolute;
     flex-direction: column;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
 }
 h1{
     font-size: 75px;
@@ -60,6 +66,16 @@ a:hover{
     border-color: #44485D;
     background-color: #44485D;
 }
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
 
 @media screen and (max-width:768px) {
     h1{

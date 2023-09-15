@@ -7,44 +7,63 @@
     box-sizing: border-box;
 }
 .home{
-   width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content:center;
-    align-items: flex-end;
-}
-
-
-
-.div2{
     width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-items:center;
-    position: absolute;
-}
-.div3{
-    width: 80%;
-    height: 80vh;
-    display: flex;
-    justify-content:center;
-    position: absolute;
-    flex-direction: column;
-    border-radius: 15px;
-    align-items:center;
-    
-}
-.div4{
-    width: 80%;
-    height: 80vh;
-    display: flex;
-    justify-content:center;
-    position: absolute;
-    align-items: center;
-    flex-direction: column;
-}
+     height: 100vh;
+     display: flex;
+     justify-content:center;
+     align-items: flex-end;
+     animation: fadeInAnimation ease 2s;
+     animation-iteration-count: 1;
+     animation-fill-mode: backwards;
+ }
+ 
+ 
+ 
+ .div2{
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     align-items:center;
+     position: absolute;
+     animation: fadeInAnimation ease 2s;
+     animation-iteration-count: 1;
+     animation-fill-mode: backwards;
+ }
+ .div3{
+     width: 80%;
+     height: 80vh;
+     display: flex;
+     justify-content:center;
+     position: absolute;
+     flex-direction: column;
+     border-radius: 15px;
+     align-items:center;
+     animation: fadeInAnimation ease 2s;
+     animation-iteration-count: 1;
+     animation-fill-mode: backwards;
+ }
+ .div4{
+     width: 80%;
+     height: 80vh;
+     display: flex;
+     justify-content:center;
+     position: absolute;
+     align-items: center;
+     flex-direction: column;
+     animation: fadeInAnimation ease 2s;
+     animation-iteration-count: 1;
+     animation-fill-mode: backwards;
+ }
+ @keyframes fadeInAnimation {
+     0% {
+         opacity: 0.2;
+     }
+     100% {
+         opacity: 1;
+      }
+  }
 h1{
     font-size:80px;
     color: #24273a;
