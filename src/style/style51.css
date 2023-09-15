@@ -97,7 +97,18 @@ h1{
 #girou{
     rotate: 180deg;
 }
-
+.logo{
+    width: 95%;
+    height: 10vh;
+    position: fixed;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.logo img{
+    width: 10%;
+    height: auto;
+}
 @media screen and (max-width:768px) {
     
     h1{
