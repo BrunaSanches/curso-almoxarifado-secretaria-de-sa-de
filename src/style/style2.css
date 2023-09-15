@@ -44,7 +44,8 @@ h1{
     font-family: 'Berlin Sans FB Demi', sans-serif;
     text-align: center;
     padding-bottom: 1em;
-
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 .botoes{
     width: 98%;
