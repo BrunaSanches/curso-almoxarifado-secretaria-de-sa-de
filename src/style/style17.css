@@ -85,3 +85,8 @@ h2{
         font-size: 30px;
     }
 }
+@media screen and (max-width:996px) {
+    h2{
+        font-size:40px;
+    }
+}
