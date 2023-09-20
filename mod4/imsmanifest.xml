@@ -35,8 +35,8 @@
 			<file href="src/includes/conteudo.js"/>
 			
 		</resource>
-		<resource identifier="RES_1" type="webcontent" adlcp:scormtype="sco" href="src/pagina37.html">
-		   <file href="src/pagina37.html"/>
+		<resource identifier="RES_1" type="webcontent" adlcp:scormtype="sco" href="src/pagina38.html">
+		   <file href="src/pagina38.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
